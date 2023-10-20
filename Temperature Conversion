@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main(void)
+{
+    printf("The Temperature Table\n");
+    int a,b,c;
+    printf("Enter the first Temperature:");
+    scanf("%d",&a);
+    printf("Enter the last temperature:");
+    scanf("%d",&b);
+    printf("Enter the increment value:");
+    scanf("%d",&c);
+    while(a<=100)
+    {
+        printf("%4d Degrees F=%4d Degrees C\n",
+         a, (a-32)*5/9);
+         a=a+c;
+
+    }
+}
