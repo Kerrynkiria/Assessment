@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+
+int main(void)
+{
+    printf("THE MASS CONVERSION TABLE\n");
+   float k =0;
+    while (k<=100)
+    {
+        printf("%6.2f POUNDS=%6.2f KILOGRAMS\n",
+               k,(k*0.454));
+               k=k+10;
+    }
+
+    return 0;
+}
