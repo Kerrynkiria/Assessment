@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main()
+{
+int matrix[4][4]={{31,17,11,91},{2,11,25,34}};
+matrix[1][2]=15;
+
+printf("%d",matrix[1][2]);
+
+return 0;
+}
